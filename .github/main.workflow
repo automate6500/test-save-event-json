@@ -5,4 +5,5 @@ workflow "Test save-event-json" {
 
 action "managedkaos/save-event-json@master" {
   uses = "managedkaos/save-event-json@master"
+  secrets = ["GITHUB_TOKEN"]
 }
