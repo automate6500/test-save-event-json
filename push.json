@@ -1,12 +1,10 @@
 {
-  "after": "3c6297608f90acf654203721a21b6c1206db3b84",
+  "after": "b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8",
   "base_ref": null,
-  "before": "0000000000000000000000000000000000000000",
+  "before": "ce4cfecafde6284f755000071afea049ac92f4b8",
   "commits": [
     {
-      "added": [
-        "trigger.txt"
-      ],
+      "added": [],
       "author": {
         "email": "michael@managedkaos.com",
         "name": "Michael",
@@ -18,23 +16,23 @@
         "username": "managedkaos"
       },
       "distinct": true,
-      "id": "3c6297608f90acf654203721a21b6c1206db3b84",
-      "message": "Push a change to trigger the build.",
-      "modified": [],
+      "id": "b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8",
+      "message": "remove scheduled workflow",
+      "modified": [
+        ".github/main.workflow"
+      ],
       "removed": [],
-      "timestamp": "2019-04-14T20:16:24-07:00",
-      "tree_id": "c996f44d5236802b7a0a23ce9bb14ec903050d81",
-      "url": "https://github.com/managedkaos/test-save-event-json/commit/3c6297608f90acf654203721a21b6c1206db3b84"
+      "timestamp": "2019-04-14T20:42:55-07:00",
+      "tree_id": "8e6f1387e3f281a629da48dead5cf7a28531c5c0",
+      "url": "https://github.com/managedkaos/test-save-event-json/commit/b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8"
     }
   ],
-  "compare": "https://github.com/managedkaos/test-save-event-json/commit/3c6297608f90",
-  "created": true,
+  "compare": "https://github.com/managedkaos/test-save-event-json/compare/ce4cfecafde6...b1d8960aa088",
+  "created": false,
   "deleted": false,
   "forced": false,
   "head_commit": {
-    "added": [
-      "trigger.txt"
-    ],
+    "added": [],
     "author": {
       "email": "michael@managedkaos.com",
       "name": "Michael",
@@ -46,13 +44,15 @@
       "username": "managedkaos"
     },
     "distinct": true,
-    "id": "3c6297608f90acf654203721a21b6c1206db3b84",
-    "message": "Push a change to trigger the build.",
-    "modified": [],
+    "id": "b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8",
+    "message": "remove scheduled workflow",
+    "modified": [
+      ".github/main.workflow"
+    ],
     "removed": [],
-    "timestamp": "2019-04-14T20:16:24-07:00",
-    "tree_id": "c996f44d5236802b7a0a23ce9bb14ec903050d81",
-    "url": "https://github.com/managedkaos/test-save-event-json/commit/3c6297608f90acf654203721a21b6c1206db3b84"
+    "timestamp": "2019-04-14T20:42:55-07:00",
+    "tree_id": "8e6f1387e3f281a629da48dead5cf7a28531c5c0",
+    "url": "https://github.com/managedkaos/test-save-event-json/commit/b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8"
   },
   "pusher": {
     "email": "managedkaos@users.noreply.github.com",
@@ -112,8 +112,8 @@
     "name": "test-save-event-json",
     "node_id": "MDEwOlJlcG9zaXRvcnkxODEzOTkwMjI=",
     "notifications_url": "https://api.github.com/repos/managedkaos/test-save-event-json/notifications{?since,all,participating}",
-    "open_issues": 1,
-    "open_issues_count": 1,
+    "open_issues": 0,
+    "open_issues_count": 0,
     "owner": {
       "avatar_url": "https://avatars0.githubusercontent.com/u/4703156?v=4",
       "email": "managedkaos@users.noreply.github.com",
@@ -138,9 +138,9 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/managedkaos/test-save-event-json/pulls{/number}",
-    "pushed_at": 1555298192,
+    "pushed_at": 1555299779,
     "releases_url": "https://api.github.com/repos/managedkaos/test-save-event-json/releases{/id}",
-    "size": 0,
+    "size": 6,
     "ssh_url": "git@github.com:managedkaos/test-save-event-json.git",
     "stargazers": 0,
     "stargazers_count": 0,
