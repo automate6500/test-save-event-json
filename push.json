@@ -1,7 +1,7 @@
 {
-  "after": "b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8",
+  "after": "754a26f12f66aab9d34dbca8a2241aeae087488f",
   "base_ref": null,
-  "before": "ce4cfecafde6284f755000071afea049ac92f4b8",
+  "before": "f35026a05f0d2795323db4220011955eab0eaefa",
   "commits": [
     {
       "added": [],
@@ -16,18 +16,18 @@
         "username": "managedkaos"
       },
       "distinct": true,
-      "id": "b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8",
-      "message": "remove scheduled workflow",
+      "id": "754a26f12f66aab9d34dbca8a2241aeae087488f",
+      "message": "Add actions to merge PR before commiting the event",
       "modified": [
         ".github/main.workflow"
       ],
       "removed": [],
-      "timestamp": "2019-04-14T20:42:55-07:00",
-      "tree_id": "8e6f1387e3f281a629da48dead5cf7a28531c5c0",
-      "url": "https://github.com/managedkaos/test-save-event-json/commit/b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8"
+      "timestamp": "2019-04-14T21:03:20-07:00",
+      "tree_id": "6d4322bc30fe983ff9abd7df731ee8daa7d67475",
+      "url": "https://github.com/managedkaos/test-save-event-json/commit/754a26f12f66aab9d34dbca8a2241aeae087488f"
     }
   ],
-  "compare": "https://github.com/managedkaos/test-save-event-json/compare/ce4cfecafde6...b1d8960aa088",
+  "compare": "https://github.com/managedkaos/test-save-event-json/compare/f35026a05f0d...754a26f12f66",
   "created": false,
   "deleted": false,
   "forced": false,
@@ -44,15 +44,15 @@
       "username": "managedkaos"
     },
     "distinct": true,
-    "id": "b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8",
-    "message": "remove scheduled workflow",
+    "id": "754a26f12f66aab9d34dbca8a2241aeae087488f",
+    "message": "Add actions to merge PR before commiting the event",
     "modified": [
       ".github/main.workflow"
     ],
     "removed": [],
-    "timestamp": "2019-04-14T20:42:55-07:00",
-    "tree_id": "8e6f1387e3f281a629da48dead5cf7a28531c5c0",
-    "url": "https://github.com/managedkaos/test-save-event-json/commit/b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8"
+    "timestamp": "2019-04-14T21:03:20-07:00",
+    "tree_id": "6d4322bc30fe983ff9abd7df731ee8daa7d67475",
+    "url": "https://github.com/managedkaos/test-save-event-json/commit/754a26f12f66aab9d34dbca8a2241aeae087488f"
   },
   "pusher": {
     "email": "managedkaos@users.noreply.github.com",
@@ -138,7 +138,7 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/managedkaos/test-save-event-json/pulls{/number}",
-    "pushed_at": 1555299779,
+    "pushed_at": 1555301007,
     "releases_url": "https://api.github.com/repos/managedkaos/test-save-event-json/releases{/id}",
     "size": 6,
     "ssh_url": "git@github.com:managedkaos/test-save-event-json.git",
@@ -152,7 +152,7 @@
     "tags_url": "https://api.github.com/repos/managedkaos/test-save-event-json/tags",
     "teams_url": "https://api.github.com/repos/managedkaos/test-save-event-json/teams",
     "trees_url": "https://api.github.com/repos/managedkaos/test-save-event-json/git/trees{/sha}",
-    "updated_at": "2019-04-15T03:03:29Z",
+    "updated_at": "2019-04-15T03:43:54Z",
     "url": "https://github.com/managedkaos/test-save-event-json",
     "watchers": 0,
     "watchers_count": 0
