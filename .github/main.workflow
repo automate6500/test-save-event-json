@@ -123,11 +123,6 @@ workflow "release" {
   resolves = ["managedkaos/save-event-json@master"]
 }
 
-workflow "scheduled" {
-  on = "scheduled"
-  resolves = ["managedkaos/save-event-json@master"]
-}
-
 workflow "status" {
   on = "status"
   resolves = ["managedkaos/save-event-json@master"]
