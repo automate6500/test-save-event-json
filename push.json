@@ -1,64 +1,64 @@
 {
-  "after": "c04067e54adb57922ff5ca5822a95e3761146b6f",
+  "after": "b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8",
   "base_ref": null,
-  "before": "94a9e6d5d2d6afc53cf1c9fff08ace67797f9666",
+  "before": "ce4cfecafde6284f755000071afea049ac92f4b8",
   "commits": [
     {
       "added": [],
       "author": {
-        "email": "managedkaos@users.noreply.github.com",
+        "email": "michael@managedkaos.com",
         "name": "Michael",
         "username": "managedkaos"
       },
       "committer": {
-        "email": "noreply@github.com",
-        "name": "GitHub",
-        "username": "web-flow"
+        "email": "michael@managedkaos.com",
+        "name": "Michael",
+        "username": "managedkaos"
       },
       "distinct": true,
-      "id": "c04067e54adb57922ff5ca5822a95e3761146b6f",
-      "message": "Update main.workflow",
+      "id": "b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8",
+      "message": "remove scheduled workflow",
       "modified": [
         ".github/main.workflow"
       ],
       "removed": [],
-      "timestamp": "2019-04-14T20:02:47-07:00",
-      "tree_id": "17a305831b52ffdafc98c6d6060c956eae7192c7",
-      "url": "https://github.com/managedkaos/test-save-event-json/commit/c04067e54adb57922ff5ca5822a95e3761146b6f"
+      "timestamp": "2019-04-14T20:42:55-07:00",
+      "tree_id": "8e6f1387e3f281a629da48dead5cf7a28531c5c0",
+      "url": "https://github.com/managedkaos/test-save-event-json/commit/b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8"
     }
   ],
-  "compare": "https://github.com/managedkaos/test-save-event-json/compare/94a9e6d5d2d6...c04067e54adb",
+  "compare": "https://github.com/managedkaos/test-save-event-json/compare/ce4cfecafde6...b1d8960aa088",
   "created": false,
   "deleted": false,
   "forced": false,
   "head_commit": {
     "added": [],
     "author": {
-      "email": "managedkaos@users.noreply.github.com",
+      "email": "michael@managedkaos.com",
       "name": "Michael",
       "username": "managedkaos"
     },
     "committer": {
-      "email": "noreply@github.com",
-      "name": "GitHub",
-      "username": "web-flow"
+      "email": "michael@managedkaos.com",
+      "name": "Michael",
+      "username": "managedkaos"
     },
     "distinct": true,
-    "id": "c04067e54adb57922ff5ca5822a95e3761146b6f",
-    "message": "Update main.workflow",
+    "id": "b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8",
+    "message": "remove scheduled workflow",
     "modified": [
       ".github/main.workflow"
     ],
     "removed": [],
-    "timestamp": "2019-04-14T20:02:47-07:00",
-    "tree_id": "17a305831b52ffdafc98c6d6060c956eae7192c7",
-    "url": "https://github.com/managedkaos/test-save-event-json/commit/c04067e54adb57922ff5ca5822a95e3761146b6f"
+    "timestamp": "2019-04-14T20:42:55-07:00",
+    "tree_id": "8e6f1387e3f281a629da48dead5cf7a28531c5c0",
+    "url": "https://github.com/managedkaos/test-save-event-json/commit/b1d8960aa0885a8fb5576e4cb384faf8f4dab9c8"
   },
   "pusher": {
     "email": "managedkaos@users.noreply.github.com",
     "name": "managedkaos"
   },
-  "ref": "refs/heads/master",
+  "ref": "refs/heads/test-pull-request-2",
   "repository": {
     "archive_url": "https://api.github.com/repos/managedkaos/test-save-event-json/{archive_format}{/ref}",
     "archived": false,
@@ -138,9 +138,9 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/managedkaos/test-save-event-json/pulls{/number}",
-    "pushed_at": 1555297367,
+    "pushed_at": 1555299779,
     "releases_url": "https://api.github.com/repos/managedkaos/test-save-event-json/releases{/id}",
-    "size": 0,
+    "size": 6,
     "ssh_url": "git@github.com:managedkaos/test-save-event-json.git",
     "stargazers": 0,
     "stargazers_count": 0,
@@ -152,7 +152,7 @@
     "tags_url": "https://api.github.com/repos/managedkaos/test-save-event-json/tags",
     "teams_url": "https://api.github.com/repos/managedkaos/test-save-event-json/teams",
     "trees_url": "https://api.github.com/repos/managedkaos/test-save-event-json/git/trees{/sha}",
-    "updated_at": "2019-04-15T03:01:28Z",
+    "updated_at": "2019-04-15T03:03:29Z",
     "url": "https://github.com/managedkaos/test-save-event-json",
     "watchers": 0,
     "watchers_count": 0
