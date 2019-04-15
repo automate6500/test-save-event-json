@@ -95,7 +95,7 @@ workflow "public" {
 
 workflow "pull_request" {
   on = "pull_request"
-  resolves = ["managedkaos/save-event-json@master"]
+  resolves = ["Save Pull Request"]
 }
 
 workflow "pull_request_review_comment" {
@@ -135,5 +135,22 @@ workflow "watch" {
 
 action "managedkaos/save-event-json@master" {
   uses = "managedkaos/save-event-json@master"
+  secrets = ["GITHUB_TOKEN"]
+}
+
+action "Save Pull Request" {
+  needs = ["Auto Merge"]
+  uses = "managedkaos/save-event-json@master"
+  secrets = ["GITHUB_TOKEN"]
+}
+
+action "Auto Merge" {
+  uses = "managedkaos/merge-pull-request@master"
+  needs = ["Auto Approve"]
+  secrets = ["GITHUB_TOKEN"]
+}
+
+action "Auto Approve" {
+  uses = "hmarr/auto-approve-action@master"
   secrets = ["GITHUB_TOKEN"]
 }
